@@ -39,5 +39,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: upload build
-          path: build/distribution/local/elasticsearch-8.15.0-SNAPSHOT.tar
+          path: ~/elasticsearch-8.15.0-SNAPSHOT.tar
 
