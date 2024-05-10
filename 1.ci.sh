@@ -7,7 +7,7 @@ cd $CMD_PATH
 
 echo "hello world"
 cd ~
-git clone --depth 1 https://github.com/es366/10003-data-elasticsearch.git
+git clone --depth 1 https://github.com/es366/10003-data-elasticsearch.git elasticsearch
 cd elasticsearch
 ./gradlew localDistro
 ./gradlew :distribution:archives:linux-tar:assembl
