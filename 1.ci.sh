@@ -8,3 +8,4 @@ cd elasticsearch
 ./gradlew :distribution:archives:linux-tar:assembl
 
 tree -L 3
+ls -al build/distribution/local/
