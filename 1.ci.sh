@@ -17,5 +17,8 @@ ls -al build/distribution/local/elasticsearch-8.15.0-SNAPSHOT
 cd build/distribution/local/
 tar cf elasticsearch-8.15.0-SNAPSHOT.tar elasticsearch-8.15.0-SNAPSHOT
 ls -al  
+file elasticsearch-8.15.0-SNAPSHOT.tar
+cp elasticsearch-8.15.0-SNAPSHOT.tar ~/
 cd $CMD_PATH
 file build/distribution/local/elasticsearch-8.15.0-SNAPSHOT.tar
+file ~/elasticsearch-8.15.0-SNAPSHOT.tar
