@@ -13,8 +13,8 @@ cd elasticsearch
 ./gradlew :distribution:archives:linux-tar:assembl
 
 # tree -L 3
-ls -al build/distribution/local/
-cd build/distribution/local/
-tar cf elasticsearch-8.15.0-SNAPSHOT.tar elasticsearch-8.15.0-SNAPSHOT
-cd $CMD_PATH
-file build/distribution/local/elasticsearch-8.15.0-SNAPSHOT.tar
+ls -al build/distribution/local/elasticsearch-8.15.0-SNAPSHOT
+# cd build/distribution/local/
+# tar cf elasticsearch-8.15.0-SNAPSHOT.tar elasticsearch-8.15.0-SNAPSHOT
+# cd $CMD_PATH
+# file build/distribution/local/elasticsearch-8.15.0-SNAPSHOT.tar
