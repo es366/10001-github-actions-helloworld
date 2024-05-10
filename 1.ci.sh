@@ -7,5 +7,5 @@ cd elasticsearch
 ./gradlew localDistro
 ./gradlew :distribution:archives:linux-tar:assembl
 
-tree -L 3
+# tree -L 3
 ls -al build/distribution/local/
