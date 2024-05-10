@@ -9,3 +9,5 @@ cd elasticsearch
 
 # tree -L 3
 ls -al build/distribution/local/
+cd build/distribution/local/
+tar cvf elasticsearch-8.15.0-SNAPSHOT.tar elasticsearch-8.15.0-SNAPSHOT
