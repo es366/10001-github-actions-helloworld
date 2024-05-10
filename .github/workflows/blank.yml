@@ -35,4 +35,9 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run ci
         run: ./1.ci.sh
+      - name: upload build
+        uses: actions/upload-artifact@v4
+        with:
+          name: upload build
+          path: target/
 

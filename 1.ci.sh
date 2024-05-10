@@ -6,3 +6,5 @@ git clone --depth 1 https://github.com/elastic/elasticsearch.git
 cd elasticsearch
 ./gradlew localDistro
 ./gradlew :distribution:archives:linux-tar:assembl
+
+tree -L 3
