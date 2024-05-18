@@ -18,6 +18,10 @@ ls -al build/distribution/local/
 cd build/distribution/local/
 
 tar cf elasticsearch-8.13.4-SNAPSHOT.tar elasticsearch-8.13.4-SNAPSHOT
+cd elasticsearch-8.13.4-SNAPSHOT/bin
+timeout 600 ./elasticsearch
+cd ..
+cd ..
 ls -al  
 file elasticsearch-8.13.4-SNAPSHOT.tar
 cp elasticsearch-8.13.4-SNAPSHOT.tar ~/
