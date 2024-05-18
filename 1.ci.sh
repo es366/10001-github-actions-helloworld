@@ -19,7 +19,9 @@ cd build/distribution/local/
 
 tar cf elasticsearch-8.13.4-SNAPSHOT.tar elasticsearch-8.13.4-SNAPSHOT
 cd elasticsearch-8.13.4-SNAPSHOT/bin
-timeout 600 ./elasticsearch
+timeout 600 ./elasticsearch & 
+sleep 180
+curl 127.0.0.1:9200 -v
 cd ..
 cd ..
 ls -al  
